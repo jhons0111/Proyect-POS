@@ -1,0 +1,107 @@
+/*DARK JUNGLE GREEN #162521
+ARSENIC #3C474B
+ALE TURQUOISE #9EEFE5
+COLUMBIA BLUE #C0E0DE
+CYAN AZURE #4F7CAC*/
+
+/*font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+
+body {
+	margin: 0px; 
+	font-family: 'Lato', sans-serif;
+}
+nav {
+	background: #3C474B;
+	height: 54px;
+	width: 100%; 
+}
+
+	/*Menu de navegacion*/
+
+#menu {
+	    margin: 0px 303px;
+	padding: 0px; 
+	width: 52%;
+	display: inline-block;
+}
+
+#menu li {
+	display: inline-block;
+	margin-right: 25px;
+	line-height: 42px;
+}
+
+#menu li i {
+	color: white;
+    margin-right: 5px;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: white;
+}
+
+	/*formulario*/
+
+#form{
+	height: 400px;
+	width: 800px;
+	margin: 100px auto;
+	background: #F2F2F2;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 6px;
+}
+
+h1{
+	font-weight: 500;
+	line-height: 65px;
+    margin-bottom: 0px;
+    font-size: 27px;
+}
+
+.column {
+	width: 270px;
+	height: 110px;
+	display: inline-block;
+	margin: 40px 25px 0 25px;
+}
+
+.column label, input{
+	display: inline-block;
+	margin: 7px 5px;
+}
+
+.column label{
+	width: 65px;
+}
+
+.column input{
+	height: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+}
+
+#edad{
+	width: 24px;
+	margin: 5px 0; 
+}
+
+#sexo{
+	width: 42px;
+}
+
+#button{
+	display: block;
+	margin: 8px auto;
+	border: 0px solid;
+	border-radius: 3px;
+    background: #C0E0DE;
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    color: white;
+    margin-top: 60px;
+}
+

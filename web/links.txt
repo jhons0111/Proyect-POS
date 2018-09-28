@@ -1,0 +1,3 @@
+bscador plugin jquery
+
+https://www.sitepoint.com/14-jquery-live-search-plugins/
