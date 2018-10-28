@@ -7,29 +7,33 @@ CYAN AZURE #4F7CAC*/
 /*font-family: 'Lato', sans-serif;
 font-family: 'PT Sans', sans-serif;*/
 
+
+/*Estilos generales*/
+
 body {
 	margin: 0px; 
 	font-family: 'Lato', sans-serif;
+	height: 100vh;
 }
 nav {
 	background: #3C474B;
-	height: 54px;
+	height: 9vh;
 	width: 100%; 
 }
 
 	/*Menu de navegacion*/
 
 #menu {
-	    margin: 0px 303px;
+	margin: 0px 25.2%;
 	padding: 0px; 
-	width: 52%;
+	width: 49.5%;
 	display: inline-block;
 }
 
 #menu li {
 	display: inline-block;
 	margin-right: 25px;
-	line-height: 42px;
+	line-height: 61px;
 }
 
 #menu li i {
@@ -37,16 +41,28 @@ nav {
     margin-right: 5px;
 }
 
+#menu li i:hover {
+	color: #afbbbf;
+}
+
 #menu li a {
 	text-decoration: none;
 	color: white;
 }
 
+#menu li a:hover {
+	color: #afbbbf;
+}
+
+.list-end{
+	margin-right: 0 !important;
+}
+
 	/*formulario*/
 
-#form{
-	height: 400px;
-	width: 800px;
+#cont-master{
+	height: 60%;
+	width: 67%;
 	margin: 100px auto;
 	background: #F2F2F2;
 	text-align: center;
@@ -54,18 +70,95 @@ nav {
 	border-radius: 6px;
 }
 
+
+/*Inicio*/
+
+hr{
+	height: 40vh;
+	width: 0px;
+	left: 64.7vw;
+	top: 30vh;
+	position: absolute;
+	border: 0.5px solid #b9b9b9;
+}
+
+.bx-viewport {
+    height: 23vh !important;
+}
+
+#slider{
+	padding: 3vh 0 0 2vw;
+	display: inline-block;
+	float: left;
+	height: 30vh;
+	width: 45vw;
+    display: inline-block;
+}
+
+#aside{
+	margin-left: 2vw;
+	margin-top: 5vh;
+	width: 26%;
+    display: inline-block;
+}
+
+#aside form input{
+	width: 90%;
+    height: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    outline-color: #16A8D1;
+}
+
+
+#aside form button{
+	display: block;
+	margin: 8px auto;
+	border: 0px solid;
+	border-radius: 3px;
+    background: #98d1cc;
+    width: 120px;
+    height: 30px;
+    padding: 8px;
+    color: white;
+    outline: none;
+}
+
+#aside form button:hover{
+	background: #6fc4bb;	
+}
+
+#message{
+	width: 28vw !important;
+    position: absolute;
+    display: inline-block;
+    left: 28vw;
+    top: 58vh;
+}
+
+#message text{
+	font-size: 1.4rem;
+    font-weight: 200;
+}
+#enlace-home{
+	color: #18a7d1;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+/*Ingreso de usuarios*/
+
 h1{
 	font-weight: 500;
-	line-height: 65px;
+	line-height: 80px;
     margin-bottom: 0px;
-    font-size: 27px;
+    font-size: 1.9rem;
 }
 
 .column {
-	width: 270px;
-	height: 110px;
+	width: 32%;
+	height: 29vh;
 	display: inline-block;
-	margin: 40px 25px 0 25px;
+	margin: 6vh 3.62vh 0 3.62vh;
 }
 
 .column label, input{
@@ -74,13 +167,17 @@ h1{
 }
 
 .column label{
-	width: 65px;
+	width: 24%;
+	font-size: 1.05rem;
 }
 
 .column input{
+	width: 65%;
 	height: 20px;
     border: 1px solid #aaaaaa;
     border-radius: 3px;
+    outline-color: #16A8D1;
+    outline-width: 2px;
 }
 
 #edad{
@@ -97,11 +194,16 @@ h1{
 	margin: 8px auto;
 	border: 0px solid;
 	border-radius: 3px;
-    background: #C0E0DE;
+    background: #98d1cc;
     width: 120px;
     height: 30px;
     padding: 8px;
     color: white;
-    margin-top: 60px;
+    margin-top: -40px;
+    outline: none;
+}
+
+#button:hover{
+	background: #6fc4bb;	
 }
 
